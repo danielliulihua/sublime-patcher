@@ -19,4 +19,5 @@
 - You should now have unlimited Sublime Text license
 
 _you may require to re run everytime sublime updates_
+
 _if any errors appear you may have to fix it by yourself._
