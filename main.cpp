@@ -42,7 +42,7 @@ int main() {
     if (system(("sudo chgrp root " + std::string(filePath)).c_str()) != 0) {
         return 1;
     }
-    std::cout << "cracked successfully" << std::endl;
+    std::cout << "Patched successfully" << std::endl;
     return 0;
 }
 #else
@@ -67,7 +67,7 @@ int main() {
     file.seekp(0, std::ios::beg);
     file.write(reinterpret_cast<const char*>(content.data()), fileSize);
 
-    std::cout << "cracked successfully" << std::endl;
+    std::cout << "Patched successfully" << std::endl;
     file.close();
     return 0;
 }
