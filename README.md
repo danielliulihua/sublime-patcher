@@ -16,5 +16,7 @@
 - Move sublime_text to the same folder as the compiled patcher `sudo mv /opt/sublime_text/sublime_text /path/to/folder`
 - Run the patcher as sudo
 - Move sublime_Text back to Sublime Text folder `sudo mv sublime_text /opt/sublime_text/`
+- You should now have unlimited Sublime Text license
 
+_you may require to re run everytime sublime updates_
 _if any errors appear you may have to fix it by yourself._
