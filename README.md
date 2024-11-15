@@ -1,6 +1,8 @@
 
 # Sublime Text 4 Patcher
-
+# Important: Doesnt work on 4180 and above, how to fix:
+- Change srPtr to 80 79 05 00 0F 94 C2
+- Change rpPtr to C6 41 05 01 B2 00 90
 
 ## How to use on windows:
 - Compile the cpp file (g++ / vs) or download from releases
